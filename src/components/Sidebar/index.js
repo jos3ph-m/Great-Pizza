@@ -11,6 +11,7 @@ const Sidebar = () => {
         <SidebarLink to="/">Desserts</SidebarLink>
         <SidebarLink to="/">Full Menu</SidebarLink>
       </SidebarMenu>
+      <SidebarMenu></SidebarMenu>
     </SidebarContainer>
   );
 };
