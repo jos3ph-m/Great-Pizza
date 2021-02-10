@@ -33,3 +33,10 @@ export const Icon = styled.div`
   cursor: pointer;
   outline: none;
 `
+
+export const SidebarMenu = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 80px);
+  text-align: center;
+`
