@@ -27,4 +27,4 @@ const Sidebar = () => {
   );
 };
 
-export default index;
+export default Sidebar;
