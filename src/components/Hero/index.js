@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 
@@ -12,6 +12,8 @@ import {
 } from './HeroElements';
 
 const Hero = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <HeroContainer>
       <Navbar />
