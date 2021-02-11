@@ -64,5 +64,6 @@ export const SidebarLink = styled(Link)`
 `
 
 export const SideBtnWrap = style.div`
-
+  display: flex;
+  justify-content: center;
 `
