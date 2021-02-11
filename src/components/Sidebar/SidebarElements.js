@@ -62,3 +62,7 @@ export const SidebarLink = styled(Link)`
     transition: 0.2s ease-in-out;
   }
 `
+
+export const SideBtnWrap = style.div`
+
+`
