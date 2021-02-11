@@ -77,7 +77,13 @@ export const SidebarRoute = styled(Link)`
   outline: none;
   border: none;
   cursor: pointer;
+  width: 60%;
+  margin: 0 auto;
   transition: 0.2s ease-in-out;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &:hover {
     transition: 0.2s ease-in-out;
