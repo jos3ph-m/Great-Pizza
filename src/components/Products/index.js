@@ -1,7 +1,12 @@
 import React from 'react';
 
 const Products = () => {
-  return <div></div>;
+  return (
+    <ProductsContainer>
+      <ProductsHeading>Heading</ProductsHeading>
+      <ProductWrapper></ProductWrapper>
+    </ProductsContainer>
+  );
 };
 
 export default Products;
