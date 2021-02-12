@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+  ProductsContainer
+}
 
 const Products = () => {
   return (
