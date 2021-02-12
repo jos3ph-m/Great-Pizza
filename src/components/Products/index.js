@@ -4,7 +4,16 @@ const Products = () => {
   return (
     <ProductsContainer>
       <ProductsHeading>Heading</ProductsHeading>
-      <ProductWrapper></ProductWrapper>
+      <ProductWrapper>
+        {data.map((product, index) => {
+          return (
+            <ProductCard key={index}>
+              <ProductImage src={product.img} alt={product.alt} />
+              <ProductInfo></ProductInfo>
+            </ProductCard>
+          );
+        })}
+      </ProductWrapper>
     </ProductsContainer>
   );
 };
