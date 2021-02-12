@@ -33,3 +33,10 @@ export const ProductHeading = styled.h1`
   text-align: center;
   margin-bottom: 5rem;
 `;
+
+export const ProductTitle = styled.h2`
+  font-weight: 400;
+  font-size: 1.5rem;
+`;
+
+export const ProductInfo = styled.div``;
