@@ -9,7 +9,9 @@ const Products = () => {
           return (
             <ProductCard key={index}>
               <ProductImage src={product.img} alt={product.alt} />
-              <ProductInfo></ProductInfo>
+              <ProductInfo>
+                <ProductTitle>{product.name}</ProductTitle>
+              </ProductInfo>
             </ProductCard>
           );
         })}
