@@ -44,6 +44,18 @@ export const productDataTwo = [
     img: sweet3,
     alt: 'Ice Cream',
     name: 'Caramel Wonder',
+    desc:
+      'Vanilla ice cream covered with caramel and chocolate glaze topped with a choco stick',
+    price: '$12.99',
+    button: 'Add to Cart',
   },
-  {},
+  {
+    img: sweet1,
+    alt: 'Brownie',
+    name: 'Brwonie Bunch',
+    desc:
+      'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
+    price: '$10.99',
+    button: 'Add to Cart',
+  },
 ];
