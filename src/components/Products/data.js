@@ -37,7 +37,7 @@ export const productDataTwo = [
   {
     img: sweet1,
     alt: 'Brownie',
-    name: 'Brwonie Bunch',
+    name: 'Brownie Bunch',
     desc:
       'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
     price: '$10.99',
