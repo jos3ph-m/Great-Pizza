@@ -29,3 +29,5 @@ export const productData = [
     button: 'Add to Cart',
   },
 ];
+
+export const productDataTwo = [{}, {}, {}];
