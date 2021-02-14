@@ -6,6 +6,15 @@ import {
   FaTwitter,
   FaLinkedin,
 } from 'react-icons/fa';
+import {
+  FooterContainer,
+  FooterWrap,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialLogo,
+  SocialIcons,
+  SocialIconLink,
+} from './FooterElements';
 
 const Footer = () => {
   return (
