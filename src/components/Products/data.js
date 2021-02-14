@@ -40,6 +40,10 @@ export const productDataTwo = [
     price: '$9.99',
     button: 'Add to Cart',
   },
-  {},
+  {
+    img: sweet3,
+    alt: 'Ice Cream',
+    name: 'Caramel Wonder',
+  },
   {},
 ];
