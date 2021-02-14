@@ -4,7 +4,7 @@ import {
   FaInstagram,
   FaYoutube,
   FaTwitter,
-  FaLinkedin
+  FaLinkedin,
 } from 'react-icons/fa';
 
 const Footer = () => {
@@ -12,25 +12,31 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrap>
         <SocialMedia>
-          <SocialLogo to="/">Pizza</SocialLogo>
-          <SocialIcons>
-            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-              <FaFacebook />
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
-              <FaInstagram />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
-              <FaYoutube />
-            </SocialIconLink>
-            <SocialIconLink
-              href='//www.twitter.com/briandesignz'
-              target='_blank'
-              aria-label='Twitter'
-              rel='noopener noreferrer'
-            >
+          <SocialMediaWrap>
+            <SocialLogo to="/">Pizza</SocialLogo>
+            <SocialIcons>
+              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                <FaFacebook />
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                <FaInstagram />
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+                <FaYoutube />
+              </SocialIconLink>
+              <SocialIconLink
+                href="//www.twitter.com/briandesignz"
+                target="_blank"
+                aria-label="Twitter"
+                rel="noopener noreferrer"
+              >
                 <FaTwitter />
-            </SocialIconLink>
-          </SocialIcons>
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+                <FaLinkedin />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>
     </FooterContainer>
