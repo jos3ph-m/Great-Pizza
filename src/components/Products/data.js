@@ -58,7 +58,7 @@ export const productDataTwo = [
     name: 'Caramel Wonder',
     desc:
       'Vanilla ice cream covered with caramel and chocolate glaze topped with a choco stick',
-    price: '$8.99',
+    price: '$7.99',
     button: 'Add to Cart',
   },
 ];
