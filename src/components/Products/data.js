@@ -39,7 +39,7 @@ export const productDataTwo = [
     alt: 'Brownie',
     name: 'Brownie Bunch',
     desc:
-      'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
+      'Double fudge brownie squares topped with white chocolate and macadamia nuts',
     price: '$9.99',
     button: 'Add to Cart',
   },
@@ -47,8 +47,7 @@ export const productDataTwo = [
     img: sweet2,
     alt: 'Donuts',
     name: 'Doughlicious',
-    desc:
-      'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
+    desc: 'Belgian chocolate glazed donuts covered in icing and sprinkles',
     price: '$6.99',
     button: 'Add to Cart',
   },
