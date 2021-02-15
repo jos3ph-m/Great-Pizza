@@ -27,7 +27,7 @@ export const productData = [
     img: product3,
     alt: 'Pizza',
     name: 'The Garden',
-    desc: 'Marinara Sauce, Prosciutto, and Arugala',
+    desc: 'Marinara Sauce, Porcini Mushroom, Prosciutto, and Arugala',
     price: '$17.99',
     button: 'Add to Cart',
   },
