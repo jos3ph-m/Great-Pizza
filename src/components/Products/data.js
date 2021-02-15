@@ -40,7 +40,7 @@ export const productDataTwo = [
     name: 'Brownie Bunch',
     desc:
       'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
-    price: '$10.99',
+    price: '$9.99',
     button: 'Add to Cart',
   },
   {
@@ -49,7 +49,7 @@ export const productDataTwo = [
     name: 'Doughlicious',
     desc:
       'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
-    price: '$9.99',
+    price: '$6.99',
     button: 'Add to Cart',
   },
   {
@@ -58,7 +58,7 @@ export const productDataTwo = [
     name: 'Caramel Wonder',
     desc:
       'Vanilla ice cream covered with caramel and chocolate glaze topped with a choco stick',
-    price: '$12.99',
+    price: '$8.99',
     button: 'Add to Cart',
   },
 ];
